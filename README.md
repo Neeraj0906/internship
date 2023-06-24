@@ -1,6 +1,6 @@
 # internship
 
-STEP1:
+**STEP1:-**
 **Javascript**:-
 document.getElementById("loginForm").addEventListener("submit", function(event) {
     event.preventDefault();
@@ -87,6 +87,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 </html>
 
 **STEP2:-**
+
 const db = require('./db'); // Include the Sequelize configuration
 
 const Auth = require('./models/Auth');
@@ -139,7 +140,10 @@ Auth.findOne({ where: { username: username, password: password } })
         }
     });
 
+
 **STEP3:-**
+
+
 const db = require('./db'); // Include the Sequelize configuration
 
 const Customer = require('./models/Customer');
